@@ -56,13 +56,54 @@ body{
 .btn:hover{
     background-color: rgba(128,128,128,0.1);
 }
-@media(max-width:480px){
-    .btn{
-        width: 14%;
-    }
-}
-@media(max-width:320px){
+
+@media(width > 200px){
     .btn{
         width: 12%;
+        margin: 10px 5px 5px 5px;
+    
     }
+    .calculator{
+        height: 50vh;
 }
+     .container{
+        height: 50vh;
+     }
+}
+@media(width > 359px){
+    .btn{
+        width: 12.5%;
+    }
+    .calculator{
+        height: 50vh;
+}
+     .container{
+        height: 50vh;
+     }
+}
+@media(width > 576px){
+    .btn{
+        width: 15%;
+    }
+    .calculator{
+        height: 50vh;
+}
+     .container{
+        height: 50vh;
+     }
+}
+@media(width > 1068px){
+    .btn{
+        width: 17%;
+        margin: 50px 5px 5px 5px;
+    }
+    .calculator{
+        height: 80vh;
+}
+     .container{
+        height: 100vh;
+     }
+    
+    
+}
+
