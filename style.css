@@ -61,6 +61,7 @@ body{
     .btn{
         width: 12%;
         margin: 10px 5px 5px 5px;
+        height: 2vh;
     
     }
     .calculator{
@@ -73,6 +74,7 @@ body{
 @media(width > 359px){
     .btn{
         width: 12.5%;
+        height: 2.5vh;
     }
     .calculator{
         height: 50vh;
@@ -84,6 +86,7 @@ body{
 @media(width > 576px){
     .btn{
         width: 15%;
+        height: 3vh;
     }
     .calculator{
         height: 50vh;
@@ -96,6 +99,7 @@ body{
     .btn{
         width: 17%;
         margin: 50px 5px 5px 5px;
+        height: 4vh;
     }
     .calculator{
         height: 80vh;
